@@ -1,0 +1,5 @@
+change namenode ip for datanodes in datanode_svc.cpp
+change blocksize in datanode_client.cpp
+change ip of datanodes in namenode_server.cpp
+delete file_list and file_info if you want to start everything new
+change datanode number dn_id in datanode_svc.cpp and then 3.sh and then copy datanode_server to datanode remote machine

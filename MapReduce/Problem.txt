@@ -1,0 +1,2 @@
+1. I have tried to make RPC calls non blocking as well . I have tried to use async function too but it seems to giving segmentation fault with return data type char **.
+2. when in tasktracker , call is made to other tasktracker by reducer thread for getting its data , execution gets halted due to non blocking nature of tasktracker_server. So I commented that out for time being
